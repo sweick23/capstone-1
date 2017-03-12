@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nutri-Search</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="save.css">
+</head>
+<body>
+<div class="space">
+    
+    </div>
+  <div class="container">
+    <h1 class="h1">Nutri-Search</h1>
+
+    <form id="js-previous-search-form" class="searchForm">
+     
+      <input type="text"  class="js-new-item width" id="searchBar" placeholder="e.g., chicken"> 
+        <button type="submit"  onclick="searchValue()" class="btn" id="btn">Search</button>
+        
+    </form>
+      <p class="prevSearch">Previous Searches</p>
+    <ul class="previous-list js-previous-list">
+        
+    </ul>
+       
+  </div>
+   <div class="resultContainer"></div>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="save.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
