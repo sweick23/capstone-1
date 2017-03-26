@@ -15,12 +15,13 @@ function getResult(userInput) {
 	searchItem.map(function(item) {
 		var x = item.fields
 		$('.resultContainer').append(
+			'<div class="appground">' +
 			'<div class="itemBar">'+
 				'<h2>' + x.item_name + '<h2>' +
 				'<h3>Calories: ' + x.nf_calories + '<h3>' +
 				'<h3>Serving Size: ' + x.nf_serving_size_qty + ' ' + x.nf_serving_size_unit +'<h3>' +
 				'<h3>Total Fat: ' + x.nf_total_fat + '<h3>' + 
-			'</div>'
+			'</div>'+  '</div>'  
 			);
 	});
 }

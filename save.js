@@ -4,10 +4,10 @@ var state = {
 
 
 var listBluePrint = (
-  '<li>' +
-   '<div id="background">' +
+  '<li >' +
+   '<span id="background">' +
     '<a id="previous" class="previous-item js-previous-item" onclick="previousItem(this)"></a>' +
-    '</div>' +
+    '</span>' +
   '</li>'
 );
 

@@ -34,22 +34,24 @@ h3 { font-size: 13px; }
 }
 
 .itemBar {
-    
-	background-color: white;
-	opacity: 0.9;
+    font-size: 15px;
+	margin-left: 15%;
+	padding: 3px;
 	transition:  .6s;
-	width: 55%;
-	margin-left: auto;
-	margin-right: auto;
+width: 100%;
 	text-align: left;
-	border-right: 7px solid #58041d;
-	border-top: thin solid #58041d;
     border-radius: 3px;
+}
+
+.appground{
+	background: #DDD;
+	width: 70%;
+	border-radius: 5px;
+	margin: 0 auto;
 }
 
 
 
-.itemBar:hover { opacity: 1; }
 
 #btn{
     background: lightgrey;
@@ -89,22 +91,19 @@ h3 { font-size: 13px; }
     }
     .itemBar {
     
-	background-color: white;
-	opacity: 0.9;
+	
+	padding: 3px;
 	transition:  .6s;
 	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
+
 	text-align: left;
-	border-right: 7px solid #58041d;
-	border-top: thin solid #58041d;
     border-radius: 3px;
 }
        
    
  
     
-}
+
     #searchBar{
         padding: 8px;
     }
