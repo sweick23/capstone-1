@@ -44,15 +44,16 @@ li{
     
 }
 .prevSearch{
-    margin-top: 15px;     
-
-  padding: 5px;
-    background: white;
+    margin-top: 22px;     
+color: white;
     display: none;
-   
-    border-radius: 3px;
-    border: 1px solid #58041d;
+   float: left:
     
+}
+
+.prevSearch::after{
+  content: ":";
+  color: white;
 }
 
 a {
@@ -72,11 +73,10 @@ a:hover{
     .prevSearch{
         
        
-    background: white;
+   float: left;
     display: none;
   
-    border-radius: 3px;
-    border: 1px solid #58041d;
+ 
     
 }
    
